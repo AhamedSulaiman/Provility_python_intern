@@ -17,10 +17,12 @@ print("Stack Function")
 arr=np.stack((arr1,arr2),axis=1)
 print(arr)
 
+#hstack function
 print("hstack function")
 arr=np.hstack((arr1,arr2))
 print(arr)
 
+#vstack function
 print("vstack")
 arr=np.vstack((arr1,arr2))
 print(arr)

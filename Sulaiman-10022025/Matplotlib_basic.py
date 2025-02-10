@@ -12,5 +12,3 @@ plt.plot(x,y)
 #To display the plot in teh window
 plt.show()
 
-#Saving the image as png file
-plt.savefig("Matplotlib_basic.png")

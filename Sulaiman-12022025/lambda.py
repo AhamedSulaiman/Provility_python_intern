@@ -17,6 +17,16 @@ def mul(n):
 a=mul(5)
 print(a(5))
 
+
 nums = [1, 2, 3, 4]
 squared = list(map(lambda x: x**2, nums,))
-print(squared)  # Output: [1, 4, 9, 16]
+print(squared)
+
+
+#Using the map function
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+sum_list = list(map(lambda x, y: x + y, list1, list2))
+
+print(sum_list)
